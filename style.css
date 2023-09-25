@@ -48,6 +48,7 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight:900;
+    flex-basis: 400px;
 }
 
 .subtext {
@@ -61,6 +62,7 @@ body {
     flex-direction: column;
     margin: 0px;
     padding-right: 25px;
+    flex-basis: 400px;
 }
 
 .sign-up-button {
@@ -83,6 +85,7 @@ p {
     align-items: center;
     margin-right: 50px;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .placeholder {
@@ -91,8 +94,128 @@ p {
     background-color: grey;
     padding: 60px;
     display:flex;
-    flex: 1;
     align-items: center;
     justify-content: center;
+    height: 245.5px;
+    box-sizing: border-box;
+    width: 425px;
+}
 
+.middle {
+    padding-bottom: 80px;
+}
+
+.middle h2{
+    font-family: "roboto";
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.box-set {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 201px;
+    text-align: center;
+}
+
+.box img {
+    border: 8px solid #3882F6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.box div {
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight:300
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+.quote div {
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 0px;
+}
+
+.quote h6 {
+    font-size: 24px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: end;
+}
+.grey {
+    background-color: #E5E7EB;
+    padding: 150px;
+    align-items: center;
+    justify-content:center;
+}
+
+.words {
+    display: flex;
+    font-family: "roboto";
+    flex-direction: column;
+    margin: 20px;
+}
+
+.sign-up {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ad {
+    background-color: #3882f6;
+    display: flex;
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+
+.advert {
+    display: flex;
+    color: #F9FAF8;
+    font-family: "roboto";
+    justify-content: center;
+    align-items: center;
+}
+
+.words div {
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+.words h3 {
+    margin-bottom: 0px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-family: "Roboto";
+}
+
+.footer div {
+    margin: 17px 0 17px 0
 }
